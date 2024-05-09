@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Data e Hora</title>
+</head>
+<body>
+    <div>
+        <h1>Exercício Data e Hora</h1>
+        <div>
+            <label for="dataHora1">Data e Hora 1:</label>
+            <input type="datetime-local" id="dataHora1">
+
+            <br>
+
+            <label for="dataHora2">Data e Hora 2:</label>
+            <input type="datetime-local" id="dataHora2">
+        </div>
+        
+        <p id="maiorData"></p>
+        <p id="intervalo"></p>
+        <p id="dataAtual"></p>
+        <button onclick="mostrarResultados()">Mostrar Resultados</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
